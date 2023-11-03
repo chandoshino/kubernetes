@@ -30,7 +30,7 @@ func TestDefaultNodeIdentifier_NodeIdentity(t *testing.T) {
 		expectIsNode   bool
 	}{
 		{
-			name:           "nil user",
+			name:           "nil users",
 			user:           nil,
 			expectNodeName: "",
 			expectIsNode:   false,
